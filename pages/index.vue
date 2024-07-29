@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to the Home Page</h1>
+    <h1>Welcome to the login Page</h1>
     <p>This page uses the login layout.</p>
   </div>
 </template>

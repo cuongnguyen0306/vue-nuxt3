@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div>about</div>
+    <div class="font-600">about</div>
     <div>{{ message }}</div>
     <p>{{ doubleCount }}</p>
-    <button @click="updateMessage">Update message</button>
+    <v-btn @click="updateMessage">Update message</v-btn>
     <button @click="fetchData">Get</button>
   </div>
 </template>
