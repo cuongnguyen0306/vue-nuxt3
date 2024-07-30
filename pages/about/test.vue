@@ -1,6 +1,7 @@
 <template>
   <div>
     <slot :value="data"> </slot>
+ 
   </div>
 </template>
 

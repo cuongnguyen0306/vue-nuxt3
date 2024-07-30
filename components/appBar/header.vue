@@ -1,11 +1,10 @@
 <template>
   <header>
     <nav>
-      <ul>
-        <li><NuxtLink :to="`/home`">Home</NuxtLink></li>
-        <li><NuxtLink :to="`/about`">About</NuxtLink></li>
-        <!-- Thêm các liên kết khác nếu cần -->
-      </ul>
+      <div class="d-flex justify-center items-center align-center">
+        <NuxtLink :to="`/home`">Home</NuxtLink>
+        <NuxtLink :to="`/about`">About</NuxtLink>
+      </div>
     </nav>
   </header>
 </template>
