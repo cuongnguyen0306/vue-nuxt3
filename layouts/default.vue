@@ -1,6 +1,12 @@
 <template>
   <div>
-    <h1>xin chao</h1>
-    <NuxtPage />
+    <Header />
+    <main>
+      <NuxtPage />
+    </main>
   </div>
 </template>
+
+<script setup>
+import Header from "~/components/appBar/header.vue";
+</script>
